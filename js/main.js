@@ -1,9 +1,40 @@
 
-//Dicionario
+/*Datas
+var d = new Date()
+alert(d)
+alert(d.getDay());
+alert(d.getHours())
+alert(d.getMinutes())
+alert(d.getMonth()+1)*/
+
+/*Repetições
+
+var count;
+for(count = 1; count <= 5; count ++){
+    alert(count)
+}
+
+var count = 0;
+while (count <= 5){
+    console.log(count);
+    alert(count)
+    count ++;
+}*/
+
+/*Condições
+var idade = prompt("Qual é a sua idade?")
+//var idade = 18
+if (idade >= 18){
+    alert("Você é maior de idade!")
+}else{
+    alert("Você é menor de idade!")
+}*/
+
+/*Dicionario
 
 var frutas = [{nome: "maçã", cor: "vermelha"},{nome: "uva", cor: "roxa"}]
 console.log(frutas);
-window.alert(frutas[1].nome);
+window.alert(frutas[1].nome);*/
 
 /*var fruta = {nome:"maçã", cor:"vermelha"}
 console.log(fruta)
