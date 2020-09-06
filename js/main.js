@@ -1,4 +1,33 @@
 
+function funcaoChange(elemento){
+    console.log(elemento.value)
+}
+
+function load(){
+    alert("Página carregada")
+}
+
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui"
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui"
+}
+
+function trocar(elemento){
+    elemento.innerHTML = "Obrigado por passar o mouse!"
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse!"
+    //alert("trocar texto")
+}
+
+function redirecionar(){
+    window.open("https://www.cursoemvideo.com/cursos/")
+    //window.location.href = "https://www.cursoemvideo.com/cursos/"
+}
+
+function clicou(){
+    //alert("Obrigado por clicar!")
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar!"
+    /*console.log(document.getElementById("agradecimento"))*/
+}
 
 /*Funções
 
